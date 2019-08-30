@@ -51,11 +51,19 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
 body {
   line-height: .5;
   background-color: #333;
-  font-family: sans-serif;
   font-size: 10px;
+  font-family: system;
+
 }
 
 .container {
@@ -77,7 +85,7 @@ body {
   border-bottom: 1px solid #ABA9AB;
   display: flex;
   padding: 1rem 0 1rem 1rem;
-  line-height: 1.2rem;
+  line-height: 1rem;
 }
 .location:hover{
     background-color:#898789 ;
@@ -91,12 +99,16 @@ body {
   float: left;
   font-size: 35px;
   font-weight: 400;
-  padding: 2px 16px 10px 22px;
+  padding: 20px;
   display: inline-block;
-  margin-top: 12px;
   width: 95px;
   margin-left: 1px;
-  color: #004BB0;
+  margin-right: 20px;
+  margin-top: 8px;
+  color:white;
+  background-color: #16184C;
+  text-align: center;
+  border-radius: 18px;
 
 }
 
@@ -105,13 +117,66 @@ h2 { /* destination */
 
   font-size: 20px;
   font-weight: 600;
-  padding: 8px 0 16px 22px;
+  padding: 8px 0 10px 22px;
+
 }
 
 h3 { /* minutes and direction */
 
   font-size: 15px;
+  font-weight: bolder;
+  margin-left: 95px;
+  line-height: 120%;
+}
+h4 { /* minutes and direction */
+
+  font-size: 15px;
   font-weight: 400;
   margin-left: 95px;
   line-height: 120%;
+}
+
+.bus6x h1{
+  background-color: red;
+}
+.bus4 h1{
+  background-color: orange;
+}
+.bus20 h1{
+  background-color: orange;
+}
+.bus157 h1{
+  background-color: orange;
+}
+.nav-bar {
+  height: 53px;
+}
+.bus6x h3{
+color: red;
+}
+.bus4 h3{
+color: orange;
+}
+.bus20 h3{
+color: orange;
+}
+.bus157 h3{
+  color: orange;
+}
+.nav-bar {
+  height: 53px;
+}
+.nav-bar-content {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  background-color: #16184C;
+  margin: 0 auto;
+  width: 420px;
+  padding-left: 20px;
+}
+.nav-bar-content h2 {
+  color: white;
+  text-align: center;
+  padding-left: 90px;
 }
