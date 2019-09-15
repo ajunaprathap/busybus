@@ -60,7 +60,7 @@ table {
 
 body {
   line-height: .5;
-  background-color: #333;
+  background-color: #d3d3d3;
   font-size: 10px;
   font-family: system;
 
@@ -87,9 +87,7 @@ body {
   padding: 1rem 0 1rem 1rem;
   line-height: 1rem;
 }
-.location:hover{
-    background-color:#898789 ;
-  }
+
 .content {
     width: 90%;
 
@@ -140,13 +138,13 @@ h4 { /* minutes and direction */
   background-color: red;
 }
 .bus4 h1{
-  background-color: orange;
+  background-color: grey;
 }
 .bus20 h1{
-  background-color: orange;
+  background-color: grey;
 }
 .bus157 h1{
-  background-color: orange;
+  background-color: grey;
 }
 .nav-bar {
   height: 53px;
@@ -154,14 +152,24 @@ h4 { /* minutes and direction */
 .bus6x h3{
 color: red;
 }
+
+.bus4 h2{
+color: grey;
+}
+.bus20 h2{
+color: grey;
+}
+.bus157 h2{
+  color: grey;
+}
 .bus4 h3{
-color: orange;
+color: grey;
 }
 .bus20 h3{
-color: orange;
+color: grey;
 }
 .bus157 h3{
-  color: orange;
+  color: grey;
 }
 .nav-bar {
   height: 53px;
